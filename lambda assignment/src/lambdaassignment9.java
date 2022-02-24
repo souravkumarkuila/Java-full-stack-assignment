@@ -1,0 +1,2 @@
+public class lambdaassignment9 {
+}
