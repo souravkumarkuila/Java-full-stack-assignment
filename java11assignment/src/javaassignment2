@@ -1,0 +1,7 @@
+Java 11 supports var keyword for variable declarations. List the scenarios where var
+keyword cannot be used for such variable declarations. Give reason in support of your answer for each scenario.
+
+1. var cannot be used in an instance and global variable declaration.
+2.  var cannot be used as a Generic type and with the generic type.
+3.  var cannot be used Without initialization. and with lambda expression
+4 . it cannot be used for method parameters and return type.
