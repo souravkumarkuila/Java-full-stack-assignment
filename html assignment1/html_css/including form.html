@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>including form:html css assignment</title>
+</head>
+<body>
+    <style>
+        body{
+          background-color:grey;
+        }
+        h1{
+          display:block;
+          text-align:center;
+          color:rg maroon;
+          font-weight: bold;
+          font-size:50px;
+          font-family:"Helvetica";
+          padding-bottom:20px;
+        }
+        .form-top{
+                margin: auto;
+                margin-bottom:50px;
+                width: 800px;
+                background-color:white;
+                border-radius: 10px;
+                padding: 50px 10px 50px 10px;
+
+        }
+        .description{
+          display:block;
+          text-align:center;
+          color:green;
+          font-weight: bold;
+          font-family:"Arial";
+        }
+        .details{
+          display:block;
+        }
+        .feild-label{
+          display: inline-block;
+          text-align: right;
+          width: 40%;
+          padding: 5px;
+          vertical-align: top;
+          margin-top: 10px;
+        }
+        .feild{
+          display: inline-block;
+          width: 48%;
+        }
+        .input-feild{
+          height: 20px;
+          width: 280px;
+          padding: 5px;
+          margin: 10px;
+          border: 1px solid #c0c0c0;
+          border-radius: 5px;
+        }
+        .submit-button{
+          margin:auto;
+          width:50px;
+        }
+        .button{
+          font-size: 1em;
+          background-color: #1db5b3;
+          color: white;
+          border: 0px solid;
+          border-radius: 4px;
+          height: 40px;
+          width: 80px;
+          margin: 10px;
+        }
+        .button:hover {
+          background-color: #18c7c5;
+        }
+      </style>
+  </head>
+  <body>
+    <div><h1>SRM Institute of science and technology</h1></div>
+    <div class="form-top">
+        <div class="description">Application Form</div>
+        <form id="schedule" >
+          <div class="details">
+            <div class="form-row">
+              <div class="feild-label">
+                <label for="name">Name</label>
+              </div>
+              <div class="feild">
+                <input type="text" id="name" placeholder="Enter name..." class="input-feild">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="feild-label">
+                <label for="fathername">Father's Name</label>
+              </div>
+              <div class="feild">
+                <input type="text" id="fathername" placeholder="Enter father's name..." class="input-feild">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="feild-label">
+                <label for="fatheroccupation">Father's Occupation</label>
+              </div>
+              <div class="feild">
+                <input type="text" id="fatheroccupation" placeholder="Occupation" class="input-feild">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="feild-label">
+                <label for="mothername">Mother's Name</label>
+              </div>
+              <div class="feild">
+                <input type="text" id="mothername" placeholder="Enter mother's name..." class="input-feild">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="feild-label">
+                <label for="motheroccupation">Mother's Occupation</label>
+              </div>
+              <div class="feild">
+                <input type="text" id="motheroccupation" placeholder="Occupation" class="input-feild">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="feild-label">
+                <label for="dob">Date of birth</label>
+              </div>
+              <div class="feild">
+                <input type="date" id="dob" value="2000-01-01" class="input-feild" min="1990-01-01" max="2004-01-01">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="feild-label">
+                <label for="xschool">Xth School name</label>
+              </div>
+              <div class="feild">
+                <input type="text" id="xschool" placeholder="School name.." class="input-feild">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="feild-label">
+                <label for="xmarks">Xth Marks(in %)</label>
+              </div>
+              <div class="feild">
+                <input type="number" id="xmarks" placeholder="Marks" class="input-feild" min="1" max="100">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="feild-label">
+                <label for="xischool">XIth School name</label>
+              </div>
+              <div class="feild">
+                <input type="text" id="xischool" placeholder="School name.." class="input-feild">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="feild-label">
+                <label for="xiimarks">XIth Marks(in %)</label>
+              </div>
+              <div class="feild">
+                <input type="number" id="ximarks" placeholder="Marks" class="input-feild" min="1" max="100">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="feild-label">
+                <label for="xschool">XIIth School name</label>
+              </div>
+              <div class="feild">
+                <input type="text" id="xiischool" placeholder="School name.." class="input-feild">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="feild-label">
+                <label for="xmarks">XIIth Marks(in %)</label>
+              </div>
+              <div class="feild">
+                <input type="number" id="xiimarks" placeholder="Marks" class="input-feild" min="1" max="100">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="feild-label">
+                <label for="achievement">Achievement</label>
+              </div>
+              <div class="feild">
+                <textarea id="achievement" placeholder="1. ----- 2. -----" class="input-feild"></textarea>
+              </div>
+            </div>
+            <div class="submit-button">
+              <button type="submit" id="submit" class="button" >Submit</button>
+            </div>
+          </div>
+          </form>
+      </div>
+    
+</body>
+</html>
